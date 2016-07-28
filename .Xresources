@@ -52,7 +52,8 @@ XTerm*reverseVideo: on
 XTerm*faceName: GurbaniBoli:size=11:antialias=true
 XTerm*selectToClipboard: true
 
-URxvt.font: 9x15
+!URxvt.font: 9x15
+URxvt.font: xft:Inconsolata\ for\ Powerline:pixelsize=16:antialias=true:hinting=true
 URxvt.depth: 32
 URxvt.background: [80]#000000
 URxvt*scrollBar:                      false
