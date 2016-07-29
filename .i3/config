@@ -31,7 +31,7 @@ floating_modifier $mod
 #bindsym $mod+Return exec terminal
 #bindsym $mod+Return exec urxvt
 #bindsym $mod+Return exec urxvt -fn "xft:Inconsolata\ for\ Powerline:size=14:antialias=true:hinting=true"
-bindsym $mod+Return exec urxvt -fn "xft:Source Code Pro Light:size=10:antialias=true:hinting=true"
+bindsym $mod+Return exec urxvt -fn "xft:Source Code Pro Light:size=8:antialias=true:hinting=true"
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -406,5 +406,5 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
-exec_always feh --bg-scale /home/chris/Pictures/wallpaper.jpg
 exec_always compton -f
+exec_always feh --bg-scale /home/chris/Pictures/wallpaper.jpg
