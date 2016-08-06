@@ -16,7 +16,7 @@
 
 !! green dark/light
 *color2:                #1D584D
-*color10:               #16A085
+*color10:               #1685A0
 
 !! yellow dark/light
 *color3:                #5CE022
@@ -55,7 +55,7 @@ XTerm*selectToClipboard: true
 !URxvt.font: 9x15
 URxvt.font: xft:Inconsolata\ for\ Powerline:pixelsize=16:antialias=true:hinting=true
 URxvt.depth: 32
-URxvt.background: [80]#000000
+URxvt.background: [80]#101010
 URxvt*scrollBar:                      false
 URxvt*mouseWheelScrollPage:           false
 URxvt*cursorBlink:                    true

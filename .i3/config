@@ -24,6 +24,7 @@ bindsym $mod+n border normal
 #font pango:Cantarell 36
 #font pango:Deja Vu Sans Condensed 9
 font pango:Source Code Pro Light 9
+#font pango:Monaco for Powerline 36
 
 # Use Mouse+$mod to drag floating windows
 floating_modifier $mod
@@ -32,6 +33,7 @@ floating_modifier $mod
 #bindsym $mod+Return exec urxvt
 #bindsym $mod+Return exec urxvt -fn "xft:Inconsolata\ for\ Powerline:size=14:antialias=true:hinting=true"
 bindsym $mod+Return exec urxvt -fn "xft:Source Code Pro Light:size=8:antialias=true:hinting=true"
+#bindsym $mod+Return exec urxvt -fn "xft:Monaco for Powerline:size=8:antialias=true:hinting=true"
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -407,4 +409,5 @@ mode "$mode_gaps_outer" {
 }
 
 exec_always compton -f
-exec_always feh --bg-scale /home/chris/Pictures/wallpaper.jpg
+#exec_always feh --bg-scale /home/chris/Pictures/wallpaper.jpg
+exec_always feh --bg-scale /home/chris/Pictures/1466314610442.jpg
