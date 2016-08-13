@@ -409,5 +409,8 @@ mode "$mode_gaps_outer" {
 }
 
 exec_always compton -f
+
+set $wallp = /home/chris/Pictures/1466314610442.jpg
 #exec_always feh --bg-scale /home/chris/Pictures/wallpaper.jpg
-exec_always feh --bg-scale /home/chris/Pictures/1466314610442.jpg
+exec_always feh --bg-scale $wallp
+exec feh --bg-scale $wallp
