@@ -4,10 +4,10 @@
 *fadeColor:             black
 *cursorColor:           #16A085
 *pointerColorBackground:#2B2C2B
-*pointerColorForeground:#16A085
+*pointerColorForeground:black
 
 !! black dark/light
-*color0:                #28F928
+*color0:                #280928
 *color8:                #272827
 
 !! red dark/light
@@ -45,7 +45,7 @@ Xcursor.theme: Chameleon-Pearl-Regular-0.5
 Xcursor.size:  0
 
 !XTerm*background: #272827
-XTerm*background: #FF0000
+XTerm*background: #000000
 XTerm*foreground: #fdf6e3
 XTerm*reverseVideo: on
 !XTerm*faceName: Terminus:size=11:antialias=true
@@ -53,7 +53,8 @@ XTerm*faceName: GurbaniBoli:size=11:antialias=true
 XTerm*selectToClipboard: true
 
 !URxvt.font: 9x15
-URxvt.font: xft:Inconsolata\ for\ Powerline:pixelsize=16:antialias=true:hinting=true
+!URxvt.font: xft:Source\ Code\ Pro\ Light:pixelsize=10:antialias=true:hinting=true
+URxvt.font: xft:Inconsolata\ for\ Powerline:pixelsize=14:antialias=true:hinting=true
 URxvt.depth: 32
 URxvt.background: [80]#101010
 URxvt*scrollBar:                      false
@@ -66,15 +67,17 @@ URxvt*saveLines:                      5000
 /* Rofi */
 #define r_bg 	#1d2021
 #define r_fg 	#ebdbb2
-#define r_hlfg	#d65d0e
+#define r_hlfg	#d5c41d
+#define r_hlbg	#181a1b
+#define r_bgalt	#1a1d1e
 
 ! States: bg, fg, bgalt, hlbg, hlfg
 rofi.color-enabled: true
-rofi.color-normal: r_bg,r_fg,#282828,r_bg,r_hlfg
+rofi.color-normal: r_bg,r_fg,r_bg,r_hlbg,r_hlfg
 rofi.color-urgent: r_bg,#fb4934,#282828,r_bg,r_hlfg
 rofi.color-active: r_bg,r_fg,#282828,r_bg,#fe8019
 ! states: background, border
-rofi.color-window: r_bg,#d5c41
+rofi.color-window: r_bg
 
 rofi.separator-style: solid
 rofi.sidebar-mode: false
