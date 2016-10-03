@@ -21,9 +21,10 @@ export MAVEN_OPTS="-Xmx256M -XX:MaxPermSize=256m"
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-#ZSH_THEME="robbyrussell"
+#ZSH_THEME="bira"
+#ZSH_THEME="bureau"
 ZSH_THEME="agnoster"
-DEFAULT_USER=`whoami` # should shorten the prompt; not working
+DEFAULT_USER=`whoami` # shortens the prompt
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -70,7 +71,7 @@ DEFAULT_USER=`whoami` # should shorten the prompt; not working
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-source /Users/`whoami`/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh
+#source /Users/`whoami`/Library/Python/2.7/lib/python/site-packages/powerline/bindings/zsh/powerline.zsh #uncomment this to force the default powerline style
 
 # User configuration
 
