@@ -27,6 +27,13 @@ export MAVEN_OPTS="-Xmx256M -XX:MaxPermSize=256m"
 ZSH_THEME="powerlevel9k/powerlevel9k"
 DEFAULT_USER=`whoami` # shortens the prompt
 
+#powerlevel9k settings
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history time)
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+POWERLEVEL9K_SHORTEN_DELIMITER=".."
+
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
