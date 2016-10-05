@@ -23,7 +23,8 @@ export MAVEN_OPTS="-Xmx256M -XX:MaxPermSize=256m"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="bira"
 #ZSH_THEME="bureau"
-ZSH_THEME="agnoster"
+#ZSH_THEME="agnoster"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 DEFAULT_USER=`whoami` # shortens the prompt
 
 # Uncomment the following line to use case-sensitive completion.
