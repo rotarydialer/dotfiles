@@ -32,7 +32,7 @@ floating_modifier $mod
 #bindsym $mod+Return exec terminal
 #bindsym $mod+Return exec urxvt
 #bindsym $mod+Return exec urxvt -fn "xft:Inconsolata\ for\ Powerline:size=12:antialias=true:hinting=true"
-bindsym $mod+Return exec urxvt -fn "xft:TamzenForPowerline:size=12:antialias=true:hinting=true"
+bindsym $mod+Return exec urxvt -fn "xft:TamzenForPowerline:size=13:antialias=true:hinting=true"
 #bindsym $mod+Return exec urxvt -fn "xft:Source Code Pro Light:size=8:antialias=true:hinting=true"
 
 # kill focused window
@@ -74,7 +74,7 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+F2 exec palemoon
 bindsym $mod+F3 exec pcmanfm
-bindsym $mod+F3 exec ranger
+bindsym $mod+F4 exec ranger
 bindsym $mod+Shift+F3 exec gksu pcmanfm
 bindsym $mod+F5 exec terminal -e 'mocp'
 #bindsym $mod+t exec --no-startup-id pkill compton
@@ -284,7 +284,7 @@ bindsym $mod+9 exec --no-startup-id blurlock
 
 # Autostart applications
 ## adjustment of i3bar battery reading (only run at the very first login):
-#exec --no-startup-id /usr/bin/adjust_i3statusconf
+##exec --no-startup-id /usr/bin/adjust_i3statusconf
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id nitrogen --restore; sleep 1; compton -b
 exec --no-startup-id nm-applet
