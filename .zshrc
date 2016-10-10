@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
+export TERM="xterm-256color"
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/`whoami`/.oh-my-zsh
@@ -29,10 +30,10 @@ DEFAULT_USER=`whoami` # shortens the prompt
 
 #powerlevel9k settings
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 POWERLEVEL9K_SHORTEN_DELIMITER=".."
-
+POWERLEVEL9K_TIME_FORMAT="%t"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
