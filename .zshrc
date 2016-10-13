@@ -16,6 +16,9 @@ export PATH=$VLT_HOME/bin:$PATH
 # for powerline to function properly
 export PATH=$HOME/Library/Python/2.7/bin:$PATH
 
+export NVM_DIR=$HOME/.nvm
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
 # Maven options
 export MAVEN_OPTS="-Xmx256M -XX:MaxPermSize=256m"
 
@@ -30,7 +33,7 @@ DEFAULT_USER=`whoami` # shortens the prompt
 
 #powerlevel9k settings
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time nvm nodeenv)
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 POWERLEVEL9K_SHORTEN_DELIMITER=".."
 POWERLEVEL9K_TIME_FORMAT="%t"
@@ -110,3 +113,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export NVM_DIR="/Users/christopherdrew/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
