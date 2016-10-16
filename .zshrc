@@ -16,8 +16,18 @@ export PATH=$VLT_HOME/bin:$PATH
 # for powerline to function properly
 export PATH=$HOME/Library/Python/2.7/bin:$PATH
 
+# Oracle environment variables:
+export ORACLE_HOME=/Library/Oracle
+export DYLD_LIBRARY_PATH=$ORACLE_HOME/instantclient_12_1
+export TNS_ADMIN=$DYLD_LIBRARY_PATH/network/admin
+export NLS_LANG=American_America.UTF8
+
+export PATH=$PATH:$ORACLE_HOME:$DYLD_LIBRARY_PATH
+
+
+# Node.js variables:
 export NVM_DIR=$HOME/.nvm
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+#[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Maven options
 export MAVEN_OPTS="-Xmx256M -XX:MaxPermSize=256m"
@@ -33,7 +43,8 @@ DEFAULT_USER=`whoami` # shortens the prompt
 
 #powerlevel9k settings
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time nvm nodeenv)
+#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time nvm nodeenv)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 POWERLEVEL9K_SHORTEN_DELIMITER=".."
 POWERLEVEL9K_TIME_FORMAT="%t"
