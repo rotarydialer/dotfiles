@@ -127,3 +127,9 @@ source $ZSH/oh-my-zsh.sh
 
 export NVM_DIR="/Users/christopherdrew/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# zsh syntax highlighting
+source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# z: shortcut script for cd
+. `brew --prefix`/etc/profile.d/z.sh
