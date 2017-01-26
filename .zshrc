@@ -4,10 +4,19 @@ export TERM="xterm-256color"
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/`whoami`/.oh-my-zsh
-export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_7_HOME=$(/usr/libexec/java_home -v1.7)
+export JAVA_8_HOME=$(/usr/libexec/java_home -v1.8)
 export ANT_HOME=/opt/apache-ant-1.9.7
 export VLT_HOME=/opt/vault-cli-3.1.16
 export MAVEN_HOME=/opt/apache-maven-3.3.9/bin
+
+alias java7='export JAVA_HOME=$JAVA_7_HOME'
+alias java8='export JAVA_HOME=$JAVA_8_HOME'
+alias eclipse='/Users/christopherdrew/eclipse/jee-neon/Eclipse Neon.app/Contents/MacOS/eclipse'
+alias java8='export JAVA_HOME=$JAVA_8_HOME'
+
+#default java 7
+export JAVA_HOME=$JAVA_7_HOME
 
 export PATH=/opt/apache-maven-3.3.9/bin:$PATH
 export PATH=$ANT_HOME/bin:$PATH
@@ -83,6 +92,7 @@ POWERLEVEL9K_TIME_FORMAT="%t"
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # HIST_STAMPS="mm/dd/yyyy"
+export HISTCONTROL=ignoredups
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
