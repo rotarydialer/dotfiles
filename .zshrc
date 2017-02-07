@@ -46,14 +46,14 @@ export MAVEN_OPTS="-Xmx256M -XX:MaxPermSize=256m"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="bira"
 #ZSH_THEME="bureau"
-ZSH_THEME="agnoster"
-#ZSH_THEME="powerlevel9k/powerlevel9k"
+#ZSH_THEME="agnoster"
+ZSH_THEME="powerlevel9k/powerlevel9k"
 DEFAULT_USER=`whoami` # shortens the prompt
 
 #powerlevel9k settings
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv vcs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv)
 #POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time nvm nodeenv)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs status time)
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 POWERLEVEL9K_SHORTEN_DELIMITER=".."
 POWERLEVEL9K_TIME_FORMAT="%t"
