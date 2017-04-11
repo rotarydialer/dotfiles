@@ -41,6 +41,9 @@ export NVM_DIR=$HOME/.nvm
 # Maven options
 export MAVEN_OPTS="-Xmx256M -XX:MaxPermSize=256m"
 
+# convenience aliases
+alias weather='clear;curl http://wttr.in'
+
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
