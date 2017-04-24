@@ -2,6 +2,10 @@ set number	" enables line numbers
 
 set clipboard=unnamed	" allows vim to use the OS clipboard
 
+" pathogen manages runtimepath for easy plugin installation
+execute pathogen#infect()
+filetype plugin indent on
+
 syntax on	" enables syntax highlighting
 colorscheme badwolf
 
