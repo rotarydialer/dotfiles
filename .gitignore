@@ -1,0 +1,15 @@
+~/git-projects/*
+
+.gitconfig
+
+.zsh-update
+.zsh_history
+.zshrc.pre-oh-my-zsh
+Desktop/
+Documents/
+Downloads/
+Movies/
+Music/
+Pictures/
+Public/
+bash_profile
