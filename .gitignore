@@ -30,6 +30,7 @@ bash_profile
 .fonts/
 .gksu.lock
 .gnome/
+.gconf/
 .java/
 .linuxbrew/
 .linuxmint/
