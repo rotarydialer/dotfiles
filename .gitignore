@@ -58,3 +58,17 @@ bash_profile
 git-projects/
 intellij/
 node_modules/
+
+.steam/
+.steam*
+Steam/
+
+.gimp*
+
+# node, mongo, robomongo, mongo compass
+.3T/
+.dbshell
+.mongo*
+.node*
+.npm*
+.babel.json
