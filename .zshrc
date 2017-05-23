@@ -96,6 +96,7 @@ POWERLEVEL9K_TIME_FORMAT="%t"
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # HIST_STAMPS="mm/dd/yyyy"
 export HISTCONTROL=ignoredups
+export HISTCONTROL=erasedups
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
