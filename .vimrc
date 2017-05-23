@@ -7,7 +7,10 @@ execute pathogen#infect()
 filetype plugin indent on
 
 syntax on	" enables syntax highlighting
-colorscheme badwolf
+syntax enable
+set background=dark
+colorscheme solarized
+"colorscheme badwolf
 
 set wildmenu	" visual autocomplete for the command menu
 set showmatch	" shows corresponding open/close {[()}]
