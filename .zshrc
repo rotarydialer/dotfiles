@@ -59,6 +59,7 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs status time)
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 POWERLEVEL9K_SHORTEN_DELIMITER=".."
+POWERLEVEL9K_SHORTEN_STRATEGY="truncate_with_package_name"
 POWERLEVEL9K_TIME_FORMAT="%t"
 
 # Uncomment the following line to use case-sensitive completion.
