@@ -11,7 +11,11 @@
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir dir_writable rbenv vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs node_version nodeenv time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status root_indicator background_jobs nodeenv time)
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+POWERLEVEL9K_SHORTEN_DELIMITER=".."
+POWERLEVEL9K_SHORTEN_STRATEGY="truncate_with_package_name"
+POWERLEVEL9K_TIME_FORMAT="%t"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
