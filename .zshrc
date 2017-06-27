@@ -16,7 +16,7 @@ alias eclipse='/Users/christopherdrew/eclipse/jee-neon/Eclipse Neon.app/Contents
 alias java8='export JAVA_HOME=$JAVA_8_HOME'
 
 #default java 7
-export JAVA_HOME=$JAVA_7_HOME
+export JAVA_HOME=$JAVA_8_HOME
 
 export PATH=/opt/apache-maven-3.3.9/bin:$PATH
 export PATH=$ANT_HOME/bin:$PATH
@@ -39,7 +39,8 @@ export NVM_DIR=$HOME/.nvm
 #[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Maven options
-export MAVEN_OPTS="-Xmx256M -XX:MaxPermSize=256m"
+#export MAVEN_OPTS="-Xmx256M -XX:MaxPermSize=256m"
+export MAVEN_OPTS="-Xms1024m -Xmx1G -XX:PermSize=1024m -javaagent:/opt/local/jar/springloaded-1.2.5.RELEASE.jar -noverify"
 
 # convenience aliases
 alias weather='clear;curl http://wttr.in'
