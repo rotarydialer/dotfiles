@@ -45,6 +45,7 @@ export MAVEN_OPTS="-Xms1024m -Xmx1G -XX:PermSize=1024m -javaagent:/opt/local/jar
 # convenience aliases
 alias weather='clear;curl http://wttr.in'
 alias hist=history
+alias ffind=/Users/`whoami`/ffind.sh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
