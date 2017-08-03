@@ -4,6 +4,11 @@
 # Path to your oh-my-zsh installation.
   export ZSH=$HOME/.oh-my-zsh
 
+# convenience aliases
+alias weather='clear;curl http://wttr.in'
+alias hist=history
+alias ffind=/Users/`whoami`/ffind.sh
+
 # Java environment variables
 export JAVA_HOME='/opt/java/jdk1.8.0_144'
 
