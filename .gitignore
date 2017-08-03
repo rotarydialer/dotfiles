@@ -71,4 +71,21 @@ Steam/
 .mongo*
 .node*
 .npm*
+.babel.jso
+
+# random crap
+.eclipse/
+.oracle_jre_usage/
+.p2/
+.swt/
+.thumbnails/
+.v8flags.4.5.103.35.0a909ffe7be1ffe2ec130aa243a64c26.json
+.vscode/
+Videos/
+agt.sh
+color-scripts/
+rupees.sh
+stmongo.sh
+sts-bundle/
+teeth/
 .babel.json
