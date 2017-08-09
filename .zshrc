@@ -9,6 +9,9 @@ alias weather='clear;curl http://wttr.in'
 alias hist=history
 alias ffind=/home/`whoami`/ffind.sh
 
+# local programs
+alias freemind=~/freemind/freemind.sh
+
 # Java environment variables
 export JAVA_HOME='/opt/java/jdk1.8.0_144'
 
