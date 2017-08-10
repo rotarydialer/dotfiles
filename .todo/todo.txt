@@ -1,0 +1,11 @@
+Add todo stuff to git dotfiles
+Alfresco models
+Figure out sharing Freemind maps
+Do something  
+Do some more stuff
+Do all the things 
+Do something with an exclamation point!
+(A) Work on page with David +Watts
+(B) YouTube API
+(C) CoffeeScript tut +Coding @work
+There is really just a whole lot of stuff I have to do with this thing. First off, I want to start a company to improve robotic emotion recognition. I mean, like, for real robots can't, like, get when I'm sad and stuff? What's up with that? A robot that could detect when I'm sad and bring me a beer would be, like, totally useful. Or would it be terrible? Would we have to call it the Alcoholism Enablement Bot... and if so, then how would interventions go? Would the interveners have to, like, defeat the robot in an epic boss battle to proceed to the cutscene where they can tell me they're concerned with my behaviour and they love me and I need to get help? Yeah... that is the dark future of AI. No Skynet, no assassinbots, just AI that does EXACTLY what we want a little too well. Because how often is what we want *really* what we want?
