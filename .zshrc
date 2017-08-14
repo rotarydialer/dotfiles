@@ -11,6 +11,7 @@ alias ffind=/home/`whoami`/ffind.sh
 
 # local programs
 alias freemind=~/freemind/freemind.sh
+alias idea=/opt/idea-IC-172.3544.35/bin/idea.sh
 
 # Java environment variables
 export JAVA_HOME='/opt/java/jdk1.8.0_144'
