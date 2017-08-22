@@ -15,6 +15,7 @@ alias idea=/opt/idea-IC-172.3544.35/bin/idea.sh
 
 # Java environment variables
 export JAVA_HOME='/opt/java/jdk1.8.0_144'
+export PATH=$PATH:$JAVA_HOME/bin
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
