@@ -93,3 +93,5 @@ sts-bundle/
 teeth/
 .babel.json
 .IdeaIC2017.2/
+.m2/
+package-lock.json
