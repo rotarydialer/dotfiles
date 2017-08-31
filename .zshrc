@@ -43,7 +43,7 @@ export NVM_DIR=$HOME/.nvm
 export MAVEN_OPTS="-Xms1024m -Xmx1G -XX:PermSize=1024m -javaagent:/opt/local/jar/springloaded-1.2.5.RELEASE.jar -noverify"
 
 # convenience aliases
-alias weather='clear;curl http://wttr.in'
+alias weather='clear;curl http://wttr.in/New+York'
 alias hist=history
 alias ffind=/Users/`whoami`/ffind.sh
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
