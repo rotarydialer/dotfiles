@@ -95,3 +95,7 @@ teeth/
 .IdeaIC2017.2/
 .m2/
 package-lock.json
+.asunder*
+.cddbslave/
+.ripperXrc
+
