@@ -1,0 +1,10 @@
+In order to get the login screen to display on the correct monitor in a two-screen (one portrait) setup, I had to add this to */etc/mdm/Init/Default*
+
+# turn off portrait monitor during login
+mode="$(xrandr -q|grep -A1 "DVI-I-1 connected"| tail -1 |awk '{ print $1 }')"
+if [ -n "$mode" ]; then
+  xrandr --output DVI-I-2 --off
+  xrandr --output DVI-I-1 --primary --mode 1920x1080
+fi
+
+The values are from the output of *xrandr*, per the "MDM" section of this article: http://www.gregfreeman.io/2012/fix-wrong-resolution-at-mdm-lightdm-login-screen-in-linux-mint-ubuntu/
