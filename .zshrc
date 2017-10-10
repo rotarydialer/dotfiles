@@ -47,6 +47,7 @@ alias weather='clear;curl http://wttr.in/New+York'
 alias hist=history
 alias ffind=/Users/`whoami`/ffind.sh
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias sbt=/opt/sbt/bin/sbt
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
