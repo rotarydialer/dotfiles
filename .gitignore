@@ -58,6 +58,8 @@ freemind/
 .zcompdump
 .zcompdump-clive-5.1.1
 .zshrc.swp
+git
+git/
 git-projects/
 intellij/
 node_modules/
