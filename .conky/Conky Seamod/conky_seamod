@@ -11,7 +11,7 @@
 # conkyrc_lunatico:  http://gnome-look.org/content/show.php?content=142884
 #==============================================================================
 
-background yes
+background no
 update_interval 1
 
 cpu_avg_samples 1
@@ -27,9 +27,12 @@ gap_y 70
 minimum_size 300 900
 maximum_width 350
 
+wn_window_class conky
 own_window yes
-own_window_type normal
-own_window_transparent no
+own_window_type desktop
+#own_window yes
+#own_window_type normal
+own_window_transparent yes
 own_window_argb_visual yes
 own_window_argb_visual yes
 own_window_colour 000000
@@ -66,8 +69,9 @@ color4 D6CA85
 COLOR5 99CCFF
 
 # Loading lua script for drawning rings
-lua_load ./seamod_rings.lua
-lua_draw_hook_post main
+# this is currently buggy and causes the widget to crash
+#lua_seamod ./load_rings.lua
+#lua_draw_hook_post main
 
 ## System information using conky capabilities
 
@@ -113,12 +117,12 @@ ${offset 15}${font Ubuntu:size=9,weight:bold}${color1}Free: ${font Ubuntu:size=9
 ${voffset 43}
 ${offset 90}${font Ubuntu:size=10,weight:bold}${color5}ETHERNET
 ${voffset 40}             
-${offset 15}${color1}${font Ubuntu:size=9,weight:bold}Up: ${alignr}${font Ubuntu:size=9,weight:normal}$color2${upspeed enp3s0} / ${totalup}
-#${offset 15}${upspeedgraph enp3s0 40,285 4B1B0C FF5C2B 100 -l}
-${offset 15}${upspeedgraph enp3s0 40,285 4B1B0C D6CA85 100 -l}
-${offset 15}${color1}${font Ubuntu:size=9,weight:bold}Down: ${alignr}${font Ubuntu:size=9,weight:normal}$color2${downspeed enp3s0} / ${totaldown}
-#${offset 15}${downspeedgraph enp3s0 40,285 324D23 77B753 100 -l}
-${offset 15}${downspeedgraph enp3s0 40,285 324D23 99CCFF 100 -l}
+${offset 15}${color1}${font Ubuntu:size=9,weight:bold}Up: ${alignr}${font Ubuntu:size=9,weight:normal}$color2${upspeed wlp0s20u5} / ${totalup}
+#${offset 15}${upspeedgraph wlp0s20u5 40,285 4B1B0C FF5C2B 100 -l}
+${offset 15}${upspeedgraph wlp0s20u5 40,285 4B1B0C D6CA85 100 -l}
+${offset 15}${color1}${font Ubuntu:size=9,weight:bold}Down: ${alignr}${font Ubuntu:size=9,weight:normal}$color2${downspeed wlp0s20u5} / ${totaldown}
+#${offset 15}${downspeedgraph wlp0s20u5 40,285 324D23 77B753 100 -l}
+${offset 15}${downspeedgraph wlp0s20u5 40,285 324D23 99CCFF 100 -l}
 
 ${color4}${hr 2}
 
