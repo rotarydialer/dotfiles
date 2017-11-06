@@ -60,7 +60,7 @@ DEFAULT_USER=`whoami` # shortens the prompt
 
 #powerlevel9k settings
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(context dir rbenv)
-#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status time nvm nodeenv)
+#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs status time nvm nodeenv)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(vcs status time)
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
 POWERLEVEL9K_SHORTEN_DELIMITER=".."
