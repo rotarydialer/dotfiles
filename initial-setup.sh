@@ -1,4 +1,4 @@
-sudo apt-get install -y vim tmux zsh git samba keepassx
+sudo apt-get install -y vim tmux zsh git samba keepassx htop
 #sudo apt-get install -y nodejs
 
 # Install nvm
