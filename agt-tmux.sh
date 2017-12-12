@@ -15,5 +15,7 @@ tmux send-keys "sleep 5 && ~/agt.sh" C-m
 tmux select-window -t $SESSION:1
 tmux select-pane -t 0
 
+tmux select-pane -P 'bg=blue'
+
 # Attach to session
 tmux -2 attach-session -t $SESSION
