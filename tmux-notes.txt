@@ -1,0 +1,44 @@
+TMUX: Terminal Multiplexer
+
+Basics:
+
+	cmd prefix: Ctl-B (by default)
+
+	Screen splitting
+		C-b % = horiz
+		C-b " = vert
+
+	Pane switching
+		C-b arrow
+	Pane resizing
+		C-b Ctl+arrow
+
+	Naming windows (cover more in scripts section)
+		C-b ,
+
+
+Scripts:
+	alf-green-tmux.sh
+	alf-dev-tmux.sh
+
+		Scroll: 	C-b [
+
+
+Sessions:
+	tmux list-sessions
+	tmux attach -t session_name
+	Detach:	C-b d
+
+
+Time permitting - Config and customization:
+
+	.tmux.conf
+
+	http://www.hamvocke.com/blog/a-guide-to-customizing-your-tmux-conf/
+		- Rebinding command prefix key (and others)
+		- Switching panes faster
+		- Enabling "mouse mode"
+
+Resources:
+
+	https://robots.thoughtbot.com/a-tmux-crash-course
