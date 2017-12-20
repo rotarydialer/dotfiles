@@ -1,5 +1,5 @@
 #!/bin/bash
-SESSION="agt"
+SESSION="allergy"
 
 tmux -2 new-session -d -s $SESSION
 
