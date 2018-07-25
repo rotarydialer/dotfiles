@@ -33,7 +33,6 @@ export NLS_LANG=American_America.UTF8
 
 export PATH=$PATH:$ORACLE_HOME:$DYLD_LIBRARY_PATH
 
-
 # Node.js variables:
 export NVM_DIR=$HOME/.nvm
 #[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -42,12 +41,18 @@ export NVM_DIR=$HOME/.nvm
 #export MAVEN_OPTS="-Xmx256M -XX:MaxPermSize=256m"
 export MAVEN_OPTS="-Xms1024m -Xmx1G -XX:PermSize=1024m -javaagent:/opt/local/jar/springloaded-1.2.5.RELEASE.jar -noverify"
 
+# Splunk
+export SPLUNK_HOME=/Applications/Splunk
+export PATH=$SPLUNK_HOME/bin:$PATH
+
 # convenience aliases
 alias weather='clear;curl http://wttr.in/New+York'
 alias hist=history
 alias ffind=/Users/`whoami`/ffind.sh
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 alias sbt=/opt/sbt/bin/sbt
+alias pgbadger=/usr/local/Cellar/perl/5.24.0_1/bin/pgbadger
+alias browsh=/Applications/browsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
